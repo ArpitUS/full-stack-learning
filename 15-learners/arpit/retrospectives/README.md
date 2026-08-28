@@ -2,6 +2,8 @@
 
 Create a retrospective after a month or meaningful milestone.
 
+Use the shared [retrospective template](../../templates/RETROSPECTIVE.md) for dated or milestone records.
+
 ```md
 # Retrospective: Period
 

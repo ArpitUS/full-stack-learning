@@ -16,6 +16,17 @@ Put collaborative application work in the shared [projects](../12-projects/) are
 
 Individual folders are the source of truth for learner progress. The [dashboard overview](../00-dashboard/LEARNER_OVERVIEW.md) is a manual summary only.
 
+## Shared Templates
+
+Copy the appropriate template into your own learner directory, then rename it for the active work. Do not edit the templates for personal records.
+
+- [Module record](templates/MODULE_RECORD.md) -> `module-progress/module-NN.md`
+- [Daily log](templates/DAILY_LOG.md) -> `daily-log/YYYY-MM-DD.md`
+- [Practice record](templates/PRACTICE_RECORD.md) -> `practice/YYYY-MM-DD-short-title.md`
+- [Retrospective](templates/RETROSPECTIVE.md) -> `retrospectives/YYYY-MM.md` or a milestone name
+
+This keeps learner records consistent while avoiding duplicate curriculum content and merge conflicts.
+
 ## Learner Workspaces
 
 - [Arpit](arpit/)

@@ -23,3 +23,7 @@ Explain solutions aloud, defend architecture choices using requirements, trouble
 ## TeamOps Connection
 
 Use TeamOps pull requests, deployment failures, performance results, and architecture decisions as primary interview material. Do not invent experiences; document work as it happens.
+
+## Working Rule
+
+Practice is only complete when the learner can explain the reasoning aloud: requirements, constraints, alternatives, trade-offs, evidence, and result. Store personal attempts and reflections in `15-learners/<name>/`; keep shared problem templates and project-derived runbooks here.

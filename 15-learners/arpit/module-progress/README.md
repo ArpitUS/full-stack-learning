@@ -8,6 +8,8 @@ Allowed status values: `Not Started`, `In Progress`, `Blocked`, `Completed`, `Re
 
 ## Template
 
+The maintained shared version is [MODULE_RECORD.md](../../templates/MODULE_RECORD.md). Copy it into this directory as `module-NN.md` before filling it out.
+
 ```md
 # Module NN: Module Name
 
