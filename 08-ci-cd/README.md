@@ -31,3 +31,15 @@ Wrong trigger scopes, unpinned actions, cache mistakes, secrets in logs, inconsi
 ## TeamOps Handoff
 
 Pipelines validate TeamOps contributions and later deploy its Docker image. Use the shared project for production workflows, not learner directories.
+
+## Primary References
+
+- [GitHub Actions documentation](https://docs.github.com/en/actions): workflows, runners, CI/CD, environments, artifacts, caching, and secure use.
+- [GitHub Actions security hardening](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions): permissions, action pinning, untrusted input, and secrets.
+- [Docker Build GitHub Actions](https://docs.docker.com/build/ci/github-actions/): Buildx, image metadata, attestation, cache, and publication practices.
+- [Jenkins Pipeline documentation](https://www.jenkins.io/doc/book/pipeline/): pipeline-as-code, Jenkinsfiles, agents, syntax, and multibranch builds.
+- [SLSA](https://slsa.dev/): supply-chain concepts and provenance guidance for later advanced work.
+
+## Pipeline Rule
+
+Keep CI and deployment changes small, reviewed, reproducible, and observable. A pipeline is production code: it needs least privilege, safe handling of untrusted inputs, tested failure paths, and a documented rollback strategy.
