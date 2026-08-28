@@ -6,3 +6,6 @@ Use this folder to maintain the learning tracker outside the implementation fold
 - `SKILL_TRACKER.md`: beginner to production skill assessment.
 - `DAILY_LOG.md`: daily learning log template.
 - `EFFORT_ALLOCATION.md`: suggested study allocation.
+- `LEARNER_OVERVIEW.md`: lightweight comparison of independent learner progress.
+
+Detailed learner records are kept separately in [Arpit's workspace](../15-learners/arpit/) and [Ashish's workspace](../15-learners/ashish/).

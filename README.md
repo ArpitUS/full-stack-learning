@@ -12,5 +12,15 @@ Core stack: Go, React, TypeScript, PostgreSQL, Redis, Docker, AWS, GitHub Action
 - `12-projects`: TeamOps, the integrated full-stack portfolio project.
 - `13-interview-preparation`: DSA, system design, and senior/architect preparation.
 - `14-resources-notes`: reusable notes, resource links, and Python secondary-skill practice.
+- `15-learners`: independent progress records for Arpit and Ashish.
 
 Start with `01-learning-roadmap/MODULES.md`. Each module maps to a workspace folder, has a measurable deliverable, and should be completed using the weekly tracker in `01-learning-roadmap/templates/WEEKLY_TRACKER.md`.
+
+## Learners
+
+The workspace supports two independent learners, Arpit and Ashish. Both follow the same [66-module curriculum](01-learning-roadmap/MODULES.md), while maintaining separate progress, notes, practice records, and retrospectives. Shared implementation work belongs in the [TeamOps project](12-projects/teamops/).
+
+- [Arpit workspace](15-learners/arpit/)
+- [Ashish workspace](15-learners/ashish/)
+- [Shared module catalog](01-learning-roadmap/MODULES.md)
+- [Shared TeamOps project](12-projects/teamops/)
