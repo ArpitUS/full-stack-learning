@@ -31,3 +31,12 @@ Stale state, missing effect cleanup, unstable list keys, incorrect dependency ar
 ## TeamOps Handoff
 
 The frontend joins TeamOps after the backend and database contract exist. Add client features stage by stage instead of building disconnected mock screens. See [TeamOps stages](../12-projects/teamops/STAGES.md).
+
+## Learning Materials
+
+- [React: Using TypeScript](https://react.dev/learn/typescript): primary reference for component props, hooks, events, children, and React types.
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html): primary language reference.
+- [Full TypeScript Guide with React examples](https://dev.to/utkvishwas/the-full-typescript-guide-with-easy-react-examples-355m): guided introduction to types, interfaces, unions, generics, props, state, events, and API lists.
+- [Hands on React TypeScript tutorial](https://handsonreact.com/docs/labs/react-tutorial-typescript): progressive project labs for components, forms, HTTP, routing, custom hooks, React Query, Redux, and testing.
+
+Use the official React and TypeScript documentation to resolve behavior or type questions. Use the guided materials to choose small practice milestones rather than copying a finished application.
