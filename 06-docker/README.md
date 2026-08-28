@@ -30,3 +30,14 @@ Incorrect build context, port mapping versus service networking, missing environ
 ## TeamOps Handoff
 
 The Compose environment is the contract used by CI/CD and deployment stages. Keep TeamOps container work under `12-projects/teamops/` and use this section for experiments and notes.
+
+## Primary References
+
+- [Docker Get Started](https://docs.docker.com/get-started/): images, containers, registries, volumes, and workflows.
+- [Dockerfile reference](https://docs.docker.com/reference/dockerfile/): instructions and build behavior.
+- [Build best practices](https://docs.docker.com/build/building/best-practices/): small, secure, maintainable images.
+- [Multi-stage builds](https://docs.docker.com/build/building/multi-stage/): separate build tools from runtime images.
+- [Docker Compose](https://docs.docker.com/compose/): local multi-container application definition.
+- [Container security](https://docs.docker.com/engine/security/): runtime isolation assumptions and limitations.
+
+Use the module guides below to build evidence. Docker is a packaging and runtime tool, not a substitute for application validation, authorization, secrets management, or observability.
