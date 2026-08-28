@@ -31,3 +31,18 @@ CrashLoopBackOff, ImagePullBackOff, incorrect labels/selectors, missing config, 
 ## TeamOps Handoff
 
 Kubernetes is an advanced TeamOps deployment option after the Compose and ECS paths. The platform comparison should be documented as an explicit decision rather than assumed.
+
+## Primary References
+
+- [Kubernetes Concepts](https://kubernetes.io/docs/concepts/): architecture, objects, workloads, services, configuration, storage, and security.
+- [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/): local-cluster-first guided progression.
+- [Declarative object management](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/declarative-config/): versioned manifest workflow.
+- [Probes](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes), [resource management](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/), and [HPA](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/).
+- [Troubleshooting applications](https://kubernetes.io/docs/tasks/debug/debug-application/) and [Kubernetes security](https://kubernetes.io/docs/concepts/security/).
+
+## Lab Safety Rules
+
+- Begin on a local cluster such as kind or minikube. Do not create EKS resources until the AWS, Terraform, cost, and teardown plans are complete.
+- Keep manifests declarative and in Git. Use namespaces to isolate learning work.
+- Never commit real secrets. Kubernetes Secrets are encoded, not automatically encrypted or safe to place in source control.
+- Use explicit resource requests/limits and delete test namespaces/resources after each lab.
