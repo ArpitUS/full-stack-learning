@@ -32,3 +32,14 @@ Token expiry/refresh, audience and issuer validation, authorization checks hidde
 ## TeamOps Handoff
 
 Security gates TeamOps authentication, user management, RBAC, secure file uploads, and AWS IAM choices. Update feature and contribution trackers whenever a shared security boundary changes.
+
+## Primary References
+
+- [OpenID Connect: How it works](https://openid.net/developers/how-connect-works/): authentication flow, relying parties, identity providers, and token roles.
+- [OAuth 2.0 Security Best Current Practice](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics): protocol-level security guidance.
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/): current web application security awareness baseline.
+- [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/): practical verification guidance.
+- [Go security best practices](https://go.dev/doc/security/best-practices): dependency scanning, fuzzing, race detection, and `go vet`.
+- [Go `crypto/tls`](https://pkg.go.dev/crypto/tls) and [`net/http`](https://pkg.go.dev/net/http): implementation references for HTTPS services.
+
+Use current official provider documentation for provider-specific integration details. Do not copy security snippets without understanding the threat model and the assumptions they require.
