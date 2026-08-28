@@ -1,6 +1,6 @@
 # Full Stack Learning Modules
 
-Complete modules in order. For each one, create a weekly tracker from `templates/WEEKLY_TRACKER.md`, keep notes in the mapped workspace, commit the practice work, and add or extend a TeamOps feature when relevant.
+Complete modules in order. For each one, use the [module workflow](templates/MODULE_WORKFLOW.md), create a weekly tracker from `templates/WEEKLY_TRACKER.md`, keep notes in the mapped workspace, commit the practice work, and add or extend a TeamOps feature when relevant. The Workspace column is a repository-relative path; every mapped workspace is present in the repository.
 
 ## Phase 1: Development Foundations
 

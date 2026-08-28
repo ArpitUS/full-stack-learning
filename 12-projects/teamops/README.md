@@ -8,6 +8,10 @@ React and TypeScript client -> ALB -> Go REST API -> PostgreSQL and Redis.
 
 Supporting platform: S3 file storage, OIDC/SSO, Docker, GitHub Actions, ECR/ECS, Terraform, Kubernetes/EKS, and observability.
 
+## Learning Integration
+
+TeamOps is built in small stages that follow the curriculum dependencies. The source of the staged plan is [STAGES.md](STAGES.md); do not mark a stage complete until its completion criteria are met.
+
 ## Feature Tracker
 
 | Feature | Backend | Frontend | Database | Tests | Deployed |
