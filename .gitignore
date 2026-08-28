@@ -1,0 +1,6 @@
+# Dependencies and build output
+node_modules/
+# Local configuration and secrets
+.env
+# Editor and operating-system files
+.vscode/
