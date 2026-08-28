@@ -31,3 +31,16 @@ State drift, unsafe local state, provider credentials, implicit dependencies, re
 ## TeamOps Handoff
 
 Terraform turns the AWS and Kubernetes deployment designs into shared, reviewable infrastructure. Keep implementation in `12-projects/teamops/04-infrastructure/` and learning experiments here.
+
+## Primary References
+
+- [Terraform documentation](https://developer.hashicorp.com/terraform/docs): Terraform lifecycle, language, CLI, state, providers, and modules.
+- [Terraform AWS get-started tutorials](https://developer.hashicorp.com/terraform/tutorials/aws-get-started): install, configure, plan, apply, manage, destroy, and collaborate.
+- [Terraform language](https://developer.hashicorp.com/terraform/language): resources, variables, outputs, expressions, modules, and state.
+- [Terraform state](https://developer.hashicorp.com/terraform/language/state): state behavior, remote state, locking, and sensitive data considerations.
+- [Terraform modules](https://developer.hashicorp.com/terraform/language/modules): reusable infrastructure boundaries.
+- [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html): evaluate the infrastructure trade-offs Terraform creates.
+
+## IaC Rule
+
+Terraform configuration is versioned and reviewed like application code. State is operational data that can contain sensitive values and resource identifiers. Do not commit state files, state backups, plan files containing secrets, provider credentials, or real `*.tfvars` files.
