@@ -31,3 +31,19 @@ Unstructured logs, high-cardinality labels, missing trace context, dashboards wi
 ## TeamOps Handoff
 
 Observability validates the system after Docker, CI/CD, AWS, and Kubernetes integration. Feed real findings into [production debugging](../13-interview-preparation/02-production-debugging/) and TeamOps stages.
+
+## Primary References
+
+- [OpenTelemetry overview](https://opentelemetry.io/docs/what-is-opentelemetry/): vendor-neutral generation, collection, and export of logs, metrics, and traces. OpenTelemetry is not a storage or visualization backend.
+- [Prometheus overview](https://prometheus.io/docs/introduction/overview/): pull-based time-series metrics, labels, PromQL, and alerting ecosystem.
+- [Prometheus instrumentation best practices](https://prometheus.io/docs/practices/instrumentation/) and [metric naming](https://prometheus.io/docs/practices/naming/).
+- [Grafana get started](https://grafana.com/docs/grafana/latest/getting-started/): dashboards, data sources, and visualization.
+- [Go diagnostics](https://go.dev/doc/diagnostics.html): pprof, execution tracing, runtime stats, and debugging tools.
+- [Go GC guide](https://go.dev/doc/gc-guide) and [`runtime/pprof`](https://pkg.go.dev/runtime/pprof): runtime performance investigation.
+
+## Telemetry Rules
+
+- Instrument questions you need to answer, not every possible field.
+- Never emit passwords, tokens, authorization headers, full personal data, or raw sensitive payloads into logs, metrics, or traces.
+- Use stable, bounded metric labels. Do not use user IDs, request IDs, URLs with arbitrary IDs, emails, or error messages as Prometheus labels.
+- Treat dashboards and alerts as operational products: give them owners, useful thresholds, and runbooks.
